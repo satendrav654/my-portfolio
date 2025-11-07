@@ -55,7 +55,7 @@ const Hero = () => {
       {/* Social Icons */}
       <div className="flex gap-6 text-2xl md:text-3xl">
         <a
-          href="https://github.com/yourusername"
+          href="https://github.com/satendrav654"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-blue-400 transition"
