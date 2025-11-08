@@ -63,7 +63,7 @@ const Hero = () => {
           <FaGithub />
         </a>
         <a
-          href="https://leetcode.com/yourusername"
+          href="https://leetcode.com/u/satendraverma/"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-blue-400 transition"
@@ -71,7 +71,7 @@ const Hero = () => {
           <SiLeetcode />
         </a>
         <a
-          href="https://linkedin.com/in/yourusername"
+          href="https://www.linkedin.com/in/satendra-developer/"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-blue-400 transition"
