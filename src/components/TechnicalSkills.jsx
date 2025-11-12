@@ -2,7 +2,7 @@ import React from "react";
 
 const TechnicalSkills = () => {
   return (
-    <section className="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-100 py-16">
+    <section id ="skills" className="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-100 py-16">
       <div className="max-w-6xl mx-auto px-6 text-center">
         {/* Section Heading */}
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center  text-blue-600 dark:text-blue-400">

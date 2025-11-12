@@ -20,7 +20,7 @@ const Navbar = () => {
     { name: "Education", to: "education" },
     { name: "Experience", to: "experience" },
     { name: "Projects", to: "projects" },
-    { name: "Skills", to: "skills" },
+    { name: "TechnicalSkills", to: "skills" },
     { name: "Testimonials", to: "testimonials" },
     { name: "Blog", to: "blog" },
     { name: "Contact", to: "contact" },
@@ -30,8 +30,8 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 w-full bg-white dark:bg-gray-900 shadow-md z-50 text-sm">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
-        <h1 className="text-2xl md:text-3xl font-bold text-blue-500 cursor-pointer tracking-wider">
-      Satendra Verma
+        <h1 className=" text-center text-2xl md:text-3xl font-bold text-blue-500 cursor-pointer tracking-wider">
+          SATENDRA VERMA
         </h1>
 
         {/* Desktop Menu */}

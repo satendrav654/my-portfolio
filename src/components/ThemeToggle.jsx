@@ -1,14 +1,19 @@
 import React, { useState, useEffect } from "react";
 
 const ThemeToggle = () => {
-  const [theme, setTheme] = useState("light");
+  // 1. Initialize state from localStorage
+  const [theme, setTheme] = useState(
+    localStorage.getItem("theme") || "light"
+  );
 
+  // 2. Apply theme on mount and whenever it changes
   useEffect(() => {
     if (theme === "dark") {
       document.documentElement.classList.add("dark");
     } else {
       document.documentElement.classList.remove("dark");
     }
+    localStorage.setItem("theme", theme); // persist theme
   }, [theme]);
 
   return (
